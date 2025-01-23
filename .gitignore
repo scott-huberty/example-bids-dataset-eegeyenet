@@ -1,0 +1,13 @@
+__pycache__/
+
+*.egg-info/
+*.python-version
+
+bids/
+
+bids/**  # Ignore the BIDSified data
+!bids/.gitkeep  # except this so that git can track the empty directory
+!bids/.bidsignore
+
+.venv/**  # uv venv
+
